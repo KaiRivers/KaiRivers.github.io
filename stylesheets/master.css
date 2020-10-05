@@ -1,0 +1,141 @@
+body {
+  text-align: center;
+  font-family: 'Libre Franklin', sans-serif;
+  color: white;
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+  font-family: 'Noto Serif TC', serif;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+/* Sections containers */
+.featuresContainer {
+  padding-bottom: 2%;
+  padding-top: 2%;
+}
+
+/* Title Section */
+/* navbar */
+.home {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* title */
+.titleContainer {
+  padding-bottom: 10%;
+}
+
+.navbar {
+  /*    background-color: #FC433F;*/
+  background-color: white;
+  margin-left: -15px;
+  margin-right: -15px;
+  padding-left: 5%;
+}
+
+.navbar-brand {
+  margin-right: 50%;
+}
+
+.nav-item {
+  text-align: center;
+  margin-right: 10%;
+  border: 2px solid transparent;
+  min-width: 6rem;
+  line-height: 1;
+}
+
+.highlight:hover {
+  border: 2px solid #fddb3a;
+  border-radius: .25rem;
+}
+
+.title-headings {
+  margin: 10% 0 2%;
+}
+
+.bigheading {
+  color: #E8C50C;
+  line-height: 1.5;
+  font-size: 5rem;
+}
+
+.subheading {
+  color: #97FF03;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+.btn {
+  margin: 0 2rem;
+}
+
+
+/* Features Section */
+#features {
+    padding: 2% 15% 2%;
+   color: black;
+  /* background-color: #2ec1ac; */
+}
+
+.features-box{
+  border: 4px solid #fddb3a;
+  border-radius: .25rem;
+}
+
+.features-title {
+  color: #00416d;
+}
+.feature-icon{
+  height: 40px;
+  padding: 1% 0 1%;
+}
+
+.feature-heading{
+  color: gray;
+  font-size: 1.2rem;
+  padding: 1% 0 1%;
+}
+/* Special Section */
+#special {
+  color: black;
+  background-color: #fff;
+  padding: 2% 15% 2%;
+  font-size: 3rem;
+}
+
+
+/* product Section */
+
+#products {
+  background-color: #fff;
+  color: black;
+}
+
+
+.product-img{
+  height: 250px;
+  width: 250px;
+}
+
+.products-title{
+  color : #E8C50C;
+  margin: 5% 0%;
+}
+
+#footer {
+  padding: 2% 0;
+  background-color: black;
+}
+
+.footer-icon {
+  margin: .5rem;
+}
+
+.footer-text {
+  font-size: 0.9rem;
+}
